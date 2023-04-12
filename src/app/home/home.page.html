@@ -1,21 +1,21 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
       Lista
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-card>
-    <img alt="Silhouette of mountains" src="https://t.ctcdn.com.br/GK3xZeLTAW7-9HJFe1E56Wxs3_E=/512x288/smart/filters:format(webp)/i489760.png" />
+<ion-content [fullscreen]="true" color="dark">
+  <ion-card color="dark">
+    <img alt="Silhouette of mountains" src="https://cdn-icons-png.flaticon.com/512/6073/6073873.png" />
     <ion-card-header>
-      <ion-card-title>LISTA DE CONTATOS</ion-card-title>
-      <ion-card-subtitle>Clique no contato para mais informações</ion-card-subtitle>
+      <ion-card-title>Lista de contatos</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
     </ion-card-header>
   </ion-card>
 
-  <ion-card>
+
   <ion-list [inset]="true">
     <ion-card *ngFor="let contato of listaContatos" color="dark">
       <ion-item button (click)="exibirContato(contato)">
@@ -30,6 +30,6 @@
     </ion-item>
     </ion-card>
     </ion-list>
-  </ion-card>
+
 
 </ion-content>

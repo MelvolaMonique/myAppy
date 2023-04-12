@@ -18,39 +18,36 @@ export class HomePage {
 
   listaContatos: contatos[] = [
     {
-      foto: 'https://sabrynarosa.com/wp-content/uploads/2020/11/filme-o-morro-dos-ventos-uivantes.jpg',
-      nome: 'RAUL',
-      email: 'raulzinhomenininho@gmail.com',
-      id: 1,
-      pagina: '/contato'
+      foto: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-94yygW2iQoT4wD5SXEt3xP7u2nkZld585Q&usqp=CAU',
+      nome: 'Sans',
+      email: 'sansesqueleto@gmail.com',
+      id: 1
     },
     {
-      foto: 'https://images.saymedia-content.com/.image/t_share/MTc0NDYwNjg2NTMyNjE3ODYy/the-ultimate-fate-of-everyone-from-phantom-of-the-opera.jpg',
-      nome: 'MIRELLA',
-      email: 'mirellalinda@gmail.com',
-      id: 2,
-      pagina: '/contato'
+      foto: 'https://m.media-amazon.com/images/I/61xFztjXk4S._AC_SL1500_.jpg',
+      nome: 'Sally',
+      email: 'SalFisher@gmail.com',
+      id: 2
     },
     {
-      foto: 'https://s2.glbimg.com/1goDrD8U0XvyIMJvNLq1L6HlGtM=/e.glbimg.com/og/ed/f/original/2018/09/27/donatella.jpg',
-      nome: 'VERSACE',
-      email: 'donatella@gmail.com',
-      id: 3,
-      pagina: '/contato'
+      foto: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPSrTn6Kd9Lr-R4XJEV16195jhGoVIpLIpvdhdXW8DTRrI9lj-wnQOpMyN-XVe-jvyc5M&usqp=CAU',
+      nome: 'Papyrus',
+      email: 'Papyrusmagnifico@gmail.com',
+      id: 3
     },
     {
-      foto: 'https://s2.glbimg.com/SVwOj9PcoWkUdfZrzF_duKvSVaY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/E/8/q2RasdRMWdGuasK7KL4g/98897053-anna-wintour-arrives-at-the-in-america-an-anthology-of-fashion-themed-met-gala-at-the-metro.jpg',
-      nome: 'GABRIEL',
-      email: 'gabrielzinho@gmail.com',
-      id: 4,
-      pagina: '/contato'
+      foto: 'https://pbs.twimg.com/media/E45NQMDXEAU-Z3v.jpg:large',
+      nome: 'Gradient',
+      email: 'GradientSans@gmail.com',
+      id: 4
+
     },
     {
-      foto: 'https://jpimg.com.br/uploads/2018/11/36687820_1587201164717893_9210176651780947968_n.jpg',
-      nome: 'MONIQUE',
-      email: 'moniquelinda@gmail.com',
-      id: 5,
-      pagina: '/contato'
+      foto: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/597a6aa6-c9ba-4b7b-86f3-bc62e8d1113a/de092k8-6a2eb408-3c34-4368-9870-4b59c36b497d.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU5N2E2YWE2LWM5YmEtNGI3Yi04NmYzLWJjNjJlOGQxMTEzYVwvZGUwOTJrOC02YTJlYjQwOC0zYzM0LTQzNjgtOTg3MC00YjU5YzM2YjQ5N2QuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nA21sTXD-xHxlAmTmW5zSobKrbgHMT6-aP57lMXqXYU',
+      nome: 'Golden',
+      email: 'Christopher@gmail.com',
+      id: 5
+
     }
   ];
 
@@ -59,7 +56,7 @@ export class HomePage {
 
   exibirContato(contato: contatos){
     this.dadosService.guardarDados('contato', contato);
-    this.route.navigateByUrl('/contato')
+    this.route.navigateByUrl('/contato1')
   }
 
 
